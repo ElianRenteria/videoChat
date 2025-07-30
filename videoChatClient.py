@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import socket
 
-host = '192.168.1.42'
+host = '10.11.205.61'
 port = 8000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

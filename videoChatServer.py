@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(("192.168.1.42", 8000))
+server.bind(("10.11.205.61", 8000))
 server.listen(5)
 print("Server listening on port 8000")
 
